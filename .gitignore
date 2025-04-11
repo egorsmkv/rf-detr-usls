@@ -1,0 +1,16 @@
+/target
+/runs
+/onnxruntime-osx-arm64-1.20.1
+
+large_rfdetr.onnx
+large_rfdetr_fp16.onnx
+
+base_rfdetr.onnx
+base_rfdetr_fp16.onnx
+
+model_int8.onnx
+model_q4f16.onnx
+
+test_video.mp4
+
+.DS_Store

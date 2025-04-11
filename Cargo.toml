@@ -1,0 +1,15 @@
+[package]
+name = "rf-detr-usls"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.97"
+clap = { version = "4.5.36", features = ["derive"] }
+env_logger = "0.11.8"
+image = "0.25.6"
+log = "0.4.27"
+ndarray = "0.16.1"
+tracing-subscriber = { version = "0.3.19", features = ["chrono", "env-filter"] }
+usls = { git = "https://github.com/jamjamjon/usls", features = ["mps"], rev = "ca6e70b69c927d4b0fadb19dbf0437793fb296f8" }
+video-rs = { version = "0.10", features = ["ndarray"] }
