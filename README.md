@@ -52,6 +52,6 @@ cargo build --release
 ORT_DYLIB_PATH=./onnxruntime-osx-arm64-1.20.1/lib/libonnxruntime.1.20.1.dylib ./target/release/rf-detr-usls --video-path test_video.mp4 --model-path model_q4f16.onnx
 ```
 
-[1]: https://github.com/jamjamjon/usls/issues
+[1]: https://github.com/jamjamjon/usls
 [2]: https://github.com/roboflow/rf-detr
 
