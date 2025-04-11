@@ -1,3 +1,5 @@
+<img src="./assets/result.jpeg" width="800"> 
+
 # RF-DETR with USLS
 
 This project shows how we can use SOTA object detection model [RF-DETR][2] with [USLS][1] to detect objects in a video using Rust and ONNX Runtime.
