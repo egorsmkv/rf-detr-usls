@@ -52,6 +52,14 @@ cargo build --release
 ORT_DYLIB_PATH=./onnxruntime-osx-arm64-1.20.1/lib/libonnxruntime.1.20.1.dylib ./target/release/rf-detr-usls --video-path test_video.mp4 --model-path model_q4f16.onnx
 ```
 
+## GPU run
+
+<img src="./assets/run-on-cuda.png" width="500"> 
+
+Google Colab with logs: 
+
+https://colab.research.google.com/drive/1xcF8PzVkt6JvLBgF8H4fDRkqyKmrwLEO?usp=sharing
+
 [1]: https://github.com/jamjamjon/usls
 [2]: https://github.com/roboflow/rf-detr
 
