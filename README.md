@@ -60,6 +60,10 @@ Google Colab with logs:
 
 https://colab.research.google.com/drive/1xcF8PzVkt6JvLBgF8H4fDRkqyKmrwLEO?usp=sharing
 
+Google Colab with TensorRT on A100:
+
+https://colab.research.google.com/drive/1-agoo5ll-hWEecWQAtO1FM39sqavJxph?usp=sharing
+
 [1]: https://github.com/jamjamjon/usls
 [2]: https://github.com/roboflow/rf-detr
 
