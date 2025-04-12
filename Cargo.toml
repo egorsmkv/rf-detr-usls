@@ -11,6 +11,7 @@ image = "0.25.6"
 log = "0.4.27"
 ndarray = "0.16.1"
 tracing-subscriber = { version = "0.3.19", features = ["chrono", "env-filter"] }
+# usls = { git = "https://github.com/jamjamjon/usls", features = ["cuda", "tensorrt"], rev = "ca6e70b69c927d4b0fadb19dbf0437793fb296f8" }
 usls = { git = "https://github.com/jamjamjon/usls", features = ["mps"], rev = "ca6e70b69c927d4b0fadb19dbf0437793fb296f8" }
 video-rs = { version = "0.10", features = ["ndarray"] }
 
