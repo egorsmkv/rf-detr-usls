@@ -18,6 +18,10 @@ struct Args {
     #[arg(long)]
     model_path: PathBuf,
 
+    /// The number of frames to process each second
+    #[arg(long, default_value_t = 30)]
+    inference_each_frame: usize,
+
     /// The device to use for inference
     #[arg(long, default_value = "cpu")]
     device: String,
@@ -76,8 +80,7 @@ fn main() -> Result<()> {
     let mut model = RFDETR::new(options)?;
 
     for (idx, frame) in decoder.decode_iter().enumerate() {
-        // Only process 1 frame every every second
-        if idx % fps as usize != 0 {
+        if idx % args.inference_each_frame != 0 {
             continue;
         }
 
